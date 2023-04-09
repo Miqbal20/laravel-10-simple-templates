@@ -24,9 +24,9 @@ class AuthController extends Controller
                 'email' => 'Authentication Failed / Invalid Email',
             ]);
         } else {
-            dd($request->all());
-            // $request->session()->regenerate();
-            // return to_route('dashboard.index')->with('success', "Login berhasil");
+            // dd($request->all());
+            $request->session()->regenerate();
+            return to_route('dashboard.index')->with('success', "Login berhasil");
         }
     }
 
