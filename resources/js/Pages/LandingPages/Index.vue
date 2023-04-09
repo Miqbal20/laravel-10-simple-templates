@@ -1,7 +1,7 @@
 <template>
 
 <div class="container p4">
-    Halaman index
+    Index Pages
 </div>
 
 </template>
