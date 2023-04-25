@@ -8,16 +8,17 @@
 6. Default Layout
 ## How to use ?
 1. Download or Clone Repository
+```
+git clone git@github.com:Miqbal20/laravel-10-simple-templates.git
+```
 2. copy ```.env.example``` and rename to it ```.env```
 3. open CLI and type 
 ```
 php artisan key:generate
 ```
-4. open CLI and type
 ```
 composer update
 ```
-5. open CLI and type 
 ```
 npm install --save-dev vue @vitejs/plugin-vue && npm run dev
 ```
