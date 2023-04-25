@@ -1,5 +1,5 @@
 # My template for build VILT stack from scratch
-## Include
+## Feature
 1. Vite JS
 2. Inertia
 3. Vue
