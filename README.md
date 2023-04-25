@@ -8,7 +8,7 @@
 6. Default Layout
 ## How to use ?
 1. Download or Clone Repository
-2. copy ```.env.example``` and rename to ```.env```
+2. copy ```.env.example``` and rename to it ```.env```
 3. open CLI and type 
 ```
 php artisan key:generate
